@@ -1,0 +1,161 @@
+body {
+  background: rgb(146, 189, 189);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header,
+main,
+footer {
+  min-width: 920px;
+}
+
+header .container,
+main .container,
+footer .container {
+  max-width: 880px;
+  
+}
+
+h2,
+h4,
+h6 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+  padding: 28px 0 240px 0;
+  background: rgb(139, 122, 122);
+  border-bottom: 1.5px solid rgb(129, 105, 105);
+}
+
+h1 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style:italic;
+  font-size: 3em;
+  color:rgb(100, 93, 93);
+  float: left;
+  width: 550px;
+}
+
+header nav {
+  float: centre;
+  width: 244px;
+}
+nav a{
+  color: rgb(151, 69, 69);
+}
+
+a {
+  color: black;
+  text-decoration:solid;
+  font-weight:bolder;
+  text-decoration-thickness: 8%;
+}
+
+main {
+  background: rgb(252, 245, 245);
+  border-radius: 1px 4.5px 4.5px 1px;
+  
+  padding: 40px;
+}
+
+.tabs a span {
+  border-radius: 5px 5px 0 0;
+  display:inline-flexbox;
+  width: 100px;
+  margin-right: 10px;
+  text-align: centre;
+  background: rgb(184, 161, 161);
+  padding: 12px;
+}
+
+.tabs a .active {
+  background: rgb(219, 218, 218);
+}
+
+main .content {
+  padding: 35px 11px 35px 11px;
+  border-radius: 0 6px 7px 8px;
+  background: rgb(235, 194, 194);
+}
+
+h3 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  color: rgb(34, 18, 18);
+  ;
+  background: rgb(139, 135, 135);
+  padding: 7px;
+  margin: 30px 0 12px 0;
+}
+
+
+main .content li {
+  border-radius: 10px;
+  padding: 3.8px;
+  background: rgb(211, 241, 241);
+  margin: 0 0 9px 0;
+}
+
+main .content button {
+  font-weight:bold;
+  padding: 0 2.8px 0 5px;
+  border-radius: 6px;
+  background: rgb(240, 226, 226);
+  cursor:default;
+  margin-centre: 8px;
+  font-size: 1.5em;
+}
+
+main .content p {
+  color: rgb(7, 2, 2);
+  margin: 45px 0 0 0;
+}
+
+main .content p:first-child {
+  margin-top: 12px;
+}
+
+main .content input {
+  font-size: 1.8em;
+}
+
+footer {
+  border-top: 2px solid rgb(241, 222, 222);
+  padding: 40px 0 25px 0;
+  background:#ddd;
+}
+
+footer .contact {
+  float: left;
+  width: 600px;
+}
+
+h5 {
+  font-family:;
+  font-size: 1.6em;
+  margin-bottom: 25px;
+}
+
+footer .contact p:nth-child(2) {
+  color:black;
+  
+}
+
+footer .sitemap {
+  float: left;
+  width: 270px;
+}
+
+footer ul {
+  width: 240px;
+}
+
+
+footer .sitemap .left {
+  float: left;
+}
+
+footer .sitemap .right {
+  float: right;
+}
